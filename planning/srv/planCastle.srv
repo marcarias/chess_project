@@ -1,0 +1,11 @@
+int32 piece1
+int32 piece2
+---
+geometry_msgs/TransformStamped p1
+geometry_msgs/TransformStamped p2
+geometry_msgs/TransformStamped p3
+geometry_msgs/TransformStamped p4
+geometry_msgs/TransformStamped p5
+geometry_msgs/TransformStamped p6
+geometry_msgs/TransformStamped p7
+geometry_msgs/TransformStamped p8
