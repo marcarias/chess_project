@@ -1,0 +1,17 @@
+<launch>
+ <!-- <include
+   file="$(find chesslab_setup)/launch/simulated_scenario.launch"
+ /> -->
+ <node
+   pkg="sensing"
+   type="sensing"
+   name="sensing"
+   output="screen"
+ />
+ <node
+   pkg="planning"
+   type="planning"
+   name="planning"
+   output="screen"
+ />
+</launch>

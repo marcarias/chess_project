@@ -1,0 +1,40 @@
+<package format="2">
+  <name>sensing</name>
+  <version>1.0.0</version>
+  <description>
+  This package was created for ROS Final Work.
+  </description>
+  <maintainer email="arnau.boix@estudiantat.upc.edu">Arnau Boix Granell</maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <depend>std_msgs</depend>
+
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>rviz</depend>
+  <depend>geometry_msgs</depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+  <depend>ur_description</depend>
+  <depend>ur_e_description</depend>
+  <depend>robotiq_2f_model</depend>
+  <depend>robotiq_2f_gripper_server</depend>
+  <depend>robotiq_2f_gripper_control</depend>
+  <depend>robotiq_modbus_rtu</depend>
+  <depend>roboticsgroup_gazebo_plugins</depend>
+  <depend>gazebo_ros_link_attacher</depend>
+  <depend>downward_ros</depend>
+  <depend>aruco</depend>
+  <depend>aruco_msgs</depend>
+  <depend>tf2_msgs</depend>
+  <depend>aruco_ros</depend>
+  <depend>aruco_broadcaster</depend>
+  <depend>ur3ik</depend>
+  <depend>gazebo_ros</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+</package>
