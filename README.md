@@ -18,8 +18,5 @@ Each package has it's own README file where their content is explained.
 
 In order to execute the proposed solution, the "action.launch" file from the action package should be executed.
 
-NOTE: We have had problems including the chesslab_setup package inside this folder. For that reason, the one we have used is located in the main directory of our work (intro2ros/2023/team03).
-
-
 
 
