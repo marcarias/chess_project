@@ -17,5 +17,3 @@ The code is divided into five main packages:
 Each package has it's own README file where their content is explained.
 
 In order to execute the proposed solution, the "action.launch" file from the action package should be executed.
-
-
