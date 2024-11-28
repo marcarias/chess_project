@@ -1,0 +1,5 @@
+int32 piece
+---
+geometry_msgs/TransformStamped p1
+geometry_msgs/TransformStamped p2
+string cell

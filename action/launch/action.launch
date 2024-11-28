@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find test_hardware)/launch/test_hardware_demo.launch.xml">
+        <arg name="load_real" value="false" />
+        <arg name="load_sim" value="true" />
+        <arg name="camera_enabled" value="true" />
+        <arg name="joint_gui_controller" value="true" />
+        <arg name="load_aruco_detector" value="true" />
+        <arg name="my_robot_ip" default="10.5.20.83" />
+        <arg name="e-series" default="true" />
+    </include>
+    <include
+      file="$(find sensing)/launch/sensing.launch"
+    />
+    <node
+      pkg="action"
+      type="action"
+      name="action"
+      output="screen"
+    />
+</launch>
